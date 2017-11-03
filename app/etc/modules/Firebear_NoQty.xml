@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Firebear_NoQty>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Firebear_NoQty>
+    </modules>
+</config>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Firebear_NoQty>
+            <version>1.0.0</version>
+        </Firebear_NoQty>
+    </modules>
+    <global>
+        <models>
+            <noqty>
+                <class>Firebear_NoQty_Model</class>
+            </noqty>
+            <sales>
+                <rewrite>
+                    <quote>Firebear_NoQty_Model_Sales_Quote</quote>
+                </rewrite>
+            </sales>
+        </models>
+        <helpers>
+            <noqty>
+                <class>Firebear_NoQty_Helper</class>
+            </noqty>
+        </helpers>
+    </global>
+
+    <default>
+        <noqty>
+            <general>
+                <enabled>1</enabled>
+            </general>
+        </noqty>
+    </default>
+
+
+</config>
